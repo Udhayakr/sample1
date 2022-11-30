@@ -15,7 +15,7 @@ jobs:
          server_port: 465
     # user credentials
          username: ${{ secrets.udhaya }}
-         password: ${{ secrets.udhaya123 }}
+         password: ${{ secrets.password }}
     # email subject
          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # email body as text
